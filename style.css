@@ -73,7 +73,10 @@ footer
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
+    width: 100%;
+    margin-top: 20px;
 }
 
 /* Style de deuxième niveau */
@@ -95,6 +98,10 @@ footer
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    width: 100%;
+    padding: 10px;
+
 }
 
 /* Style de dernier niveau */
@@ -118,12 +125,15 @@ h3
 
 img
 {
-    font-weight: 24px;
+    height: 24px;
 }
 
 button
 {
-    font-weight: 200px;
+    width: 100px;
+    background-color: chartreuse;
+    padding: 5px;
+    border-radius: 4px;
 }
 
 /* style aux changement*/
