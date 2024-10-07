@@ -1,0 +1,259 @@
+/* Variables et fonts */
+:root
+{
+    --backPLQ: #f08080;
+    --backPQ: #004C9D;
+    --backQS: #FF8040;
+    --backPCQ: #1db9e0;
+    --backCAQ: #1e90ff;
+    --backCQ: #13876c;
+}
+
+@font-face 
+{
+    font-family: "gilroy";
+    src: url("./assets/font/gilroy-extrabold-webfont.woff2");
+}
+
+/* Style de la page */
+html
+{
+    box-sizing: border-box;
+}
+
+*, *::after, *::before
+{
+    box-sizing: inherit;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    cursor: grab;
+}
+
+/* Style conteneur principale */
+
+.conteneur-principal
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 700px;
+    border: 1px solid black;
+}
+
+/* Style conteneur premier niveau */
+
+header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    margin-bottom: 50px;
+
+    font-family: "gilroy";
+
+}
+
+article
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/* Style de deuxième niveau */
+.conteneur-parti
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0px 50px 0px;
+    padding: 15px 30px 15px 30px;
+    border: 1px solid black;
+}
+
+.down
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style de dernier niveau */
+h1
+{
+    font-size: 4em;
+}
+h2
+{
+    font-size: 2.5em;
+}
+h3
+{
+    margin: 10px 0px 5px;
+}
+
+.cercleCheck
+{
+    display: none;
+}
+
+img
+{
+    font-weight: 24px;
+}
+
+button
+{
+    font-weight: 200px;
+}
+
+/* style aux changement*/
+
+#PLQ
+{
+    transition: all 400ms;
+}
+
+#PLQ:hover
+{
+    background-color: var(--backPLQ);
+    transform: translateX(20px);
+    
+    .cercleVide
+    {
+        display: none;
+    }
+
+    .cercleCheck
+    {
+        display: block;
+    }
+}
+
+#PQ
+{
+    transition: all 400ms;
+}
+
+#PQ:hover
+{
+    background-color: var(--backPQ);
+    transform: translateX(20px);
+    
+    .cercleVide
+    {
+        display: none;
+    }
+
+    .cercleCheck
+    {
+        display: block;
+    }
+}
+
+#QS
+{
+    transition: all 400ms;
+}
+
+#QS:hover
+{
+    background-color: var(--backQS);
+    transform: translateX(20px);
+    
+    .cercleVide
+    {
+        display: none;
+    }
+
+    .cercleCheck
+    {
+        display: block;
+    }
+}
+
+#PCQ
+{
+    transition: all 400ms;
+}
+
+#PCQ:hover
+{
+    background-color: var(--backPCQ);
+    transform: translateX(20px);
+    
+    .cercleVide
+    {
+        display: none;
+    }
+
+    .cercleCheck
+    {
+        display: block;
+    }
+}
+
+#CAQ
+{
+    transition: all 400ms;
+}
+
+#CAQ:hover
+{
+    background-color: var(--backCAQ);
+    transform: translateX(20px);
+    
+    .cercleVide
+    {
+        display: none;
+    }
+
+    .cercleCheck
+    {
+        display: block;
+    }
+}
+
+#CQ
+{
+    transition: all 400ms;
+}
+
+#CQ:hover
+{
+    background-color: var(--backCQ);
+    transform: translateX(20px);
+    
+    .cercleVide
+    {
+        display: none;
+    }
+
+    .cercleCheck
+    {
+        display: block;
+    }
+}
+
+
+
+
